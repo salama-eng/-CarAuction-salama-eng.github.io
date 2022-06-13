@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="npm/bootstrap%405.0.2/dist/js/bootstrap.bundle.min-2.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="css2-2?family=Tajawal:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-2.css">
+    <link rel="stylesheet" href="css/bootstrap.min-2.css">
+    <link rel="stylesheet" href="css/dashboard-2.css">
+    <link rel="stylesheet" href="css/font-awesome-2.css">
+    <!-- CSS only -->
+    <link href="npm/bootstrap%405.1.3/dist/css/bootstrap.min-2.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="npm/bootstrap%405.0.2/dist/css/bootstrap.min-2.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <title>Cars Auction</title>
+
+</head>
+<!-- Font Family -->
+
+<body class="fs-6 bg-darkgrey">
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+        <button class="bttn border-0  navbar-toggle" type="button">
+            <div class="menu my-1 px-3 bg-light"> </div>
+            <div class="menu bg-light"> </div>
+        </button>
+        <div class="cornerstyle position-absolute"></div>
+        <div class="container-fluid w-96 my-2">
+
+            <a class="navbar-brand border  logo-box d-flex align-items-center justify-content-center" href="home">CAC</a>
+      
+            <div class="collapse navbar-collapse ">
+                <ul class="navbar-nav mx-auto  d-flex justify-content-between fs-7">
+                    <button class="bttn border-0  navbar-toggle toggle" type="button">
+                        <div class="menu my-1 px-3 bg-light"> </div>
+                        <div class="menu bg-light"> </div>
+                    </button>
+                    <li class="nav-item">
+                        <a alt="الصفحة الرئيسية" class="nav-link text-light" href="home.html">الصفحة الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a alt="العروض" class="nav-link   text-light" href="offers.html">العروض</a>
+                    </li>
+                    <li class="nav-item">
+                        <a alt="المزادات" class="nav-link   active" href="auctions.html">المزادات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a alt="تواصل معنا" class="nav-link   text-light" href="contact_us.html">تواصل معنا
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a alt="من نحن" class="nav-link   text-light" href="aboutUs.html">من نحن
+                        </a>
+                    </li>
+        
+                </ul>
+                                 <a href="http://localhost:8000/login">  <button class="nav-item text-center border-0  contact text-light fs-6 py-2 px-4 me-auto ms-5 ">
+                        <i class="fa fa-sign-in"></i>&nbsp;تسجيل الدخول
+                    </button></a>
+                                            
+               
+                   
+            </div>
+
+        </div>
+        <div class="fixed-top contact-parent vh-100">
+            <div class="contactnavbar d-flex  align-content-between  p-4 flex-wrap ">
+               
+                                                            </div>
+
+
+        </div>
+    </nav>
+<!-- nav end -->
+
+
+        <section>
+        <div class="auctions-bg w-100 mt-5">
+
+            <div class="d-flex  flex-wrap  auctions-bg-child ">
+                <div></div>
+                                <h1 class="fw-bold w-100 text-center active mb-5">
+                    مستكشف المركبات
+                </h1>
+                <p class="w-100 text-center text-lighter m-2 mb-5">
+                    هل تبحث عن سيارات بحالة معينة؟
+                    <br>
+                    تبسيط البحث عن طريق تحديد فئة لتضييق تطاق نتائجك
+                </p>
+                <form action="" class="w-100 d-flex flex-wrap auction-form">
+                    <div class="w-75 d-flex justify-content-between flex-wrap mx-auto">
+
+                        <div class="my-2 mx-auto">
+                            <select id="mod" class="text-center py-1">
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2022">2022</option>
+                                                                    <option value="2013">2013</option>
+                                                                    <option value="2014">2014</option>
+                                                                    <option value="2012">2012</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2011">2011</option>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2015">2015</option>
+                                                                    <option value="2017">2017</option>
+                                                                    <option value="2016">2016</option>
+                                                                    <option value="2007">2007</option>
+                                                                    <option value="2008">2008</option>
+                                                                    <option value="2018">2018</option>
+                                                            </select>
+                        </div>
+                        <div class="my-2 mx-auto">
+                            <select id="cate" class="text-center  py-1">
+                                                                    <option value="تويوتا">تويوتا</option>
+                                                                    <option value="هوندا">هوندا</option>
+                                                                    <option value="سكودا">سكودا</option>
+                                                                    <option value="جيب">جيب</option>
+                                                                    <option value="مرسديس">مرسديس</option>
+                                                                    <option value="بي ام دبليو">بي ام دبليو</option>
+                                                            </select>
+                        </div>
+                        <div class="my-2 mx-auto">
+                            <select id="coun" class="text-center  py-1">
+                                                                    <option value="صنعاء">صنعاء</option>
+                                                                    <option value="تعز">تعز</option>
+                                                                    <option value="الحديدة">الحديدة</option>
+                                                                    <option value="مأرب">مأرب</option>
+                                                                    <option value="المكلا">المكلا</option>
+                                                                    <option value="حضرموت">حضرموت</option>
+                                                                    <option value="شبوة">شبوة</option>
+                                                                    <option value="ذمار">ذمار</option>
+                                                            </select>
+                        </div>
+                        <div class="my-2 mx-auto">
+                            <select id="type" class="text-center  py-1">
+                                                                                                            <option value="مستخدم">مستخدم</option>
+                                                                                                                                                <option value="جديد">جديد</option>
+                                                                                                </select>
+                        </div>
+
+                        <div class="my-2 mx-auto">
+                            <select id="price" class="text-center py-1 d-flex">
+
+                                <option value="اقل من 2000$">اقل من 2000$</option>
+                                <option value="$2000 - $4000">$2000 - $4000</option>
+                                <option class="$4000 - $7000">$4000 - $7000</option>
+                                <option value="اكثر من 7000$">اكثر من 7000$</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="w-100 d-flex justify-content-center">
+                        <input type="submit" value="ابحث" class="py-1 px-5 my-3 contact text-light border-0">
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <section class="offers offers-page d-flex flex-column align-items-center pt-5 my-5 ">
+        <h1 class="d-flex flex-wrap   yellow fs-3">المزادات الحالية </h1>
+
+        <div class="d-flex flex-wrap  col-12 col-lg-9 gap-1">
+
+                                                                    <div class="card animate text-light m-auto  py-0 mb-4 mt-4 " style="width: 20rem;">
+                        <a href="http://localhost:8000/auctiondetails/24"><img src="images/2022052414571.jpeg" class="card-img-top p-3" height="220" alt="...">
+                            <div style="position:absolute; left:20px;top:55%" class="bg-yellow p-1 px-2 text-light">
+                                <span class="mod">2021</span>
+                                /تويوتا
+                                
+                            </div>
+                        </a>
+                        <div class="card-body py-0">
+
+                            <h5 class="card-title text-center"><span class="cate"></span>لاند كروزر
+                                /
+                                                                مستخدم 
+                                                        </h5>
+                            <p class="text-center fs-7 card-details type">
+                               صنعاء
+                            </p>
+
+                        </div>
+                        <div class="card-body d-flex justify-content-between py-0">
+                            <p href="#" class="card-link card-details">سعر المزايدة/<span class="active price">40000</span><i class="active">$</i>
+                            </p>
+                            <a href="http://localhost:8000/auctiondetails/24" class="card-link active  fs-7">تفاصيل<i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+
+                        </div>
+
+                    </div>
+
+
+                        <!--  the model   -->
+
+                        <div class="modal fade user" id="auction24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+
+
+
+
+                                    <div class="modal-content m-auto ">
+                                        <div class="modal-header bg-darkgrey">
+
+                                            <button type="button" class="btn-close yellow" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <h6 class="text-center yellow mt-5 mb-5 ">عذرا يرجى تسجيل الدخول اولا حتى تتمكن من
+                                            المزايدة!!</h6>
+                                        <img class="m-auto" src="assets/images/login_error.png" width="300" alt="">
+                                        <a href="http://localhost:8000/login" class="card-link active text-center mt-5 mb-5">
+                                            تسجيل الدخول <i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+                                    </div>
+                            
+                        </div>
+                                                                                                                                    <div class="card animate text-light m-auto  py-0 mb-4 mt-4 " style="width: 20rem;">
+                        <a href="http://localhost:8000/auctiondetails/26"><img src="images/2022052415051.jpeg" class="card-img-top p-3" height="220" alt="...">
+                            <div style="position:absolute; left:20px;top:55%" class="bg-yellow p-1 px-2 text-light">
+                                <span class="mod">2013</span>
+                                /هوندا
+                                
+                            </div>
+                        </a>
+                        <div class="card-body py-0">
+
+                            <h5 class="card-title text-center"><span class="cate"></span>هوندا سيفيك
+                                /
+                                                                 جديد
+                                                        </h5>
+                            <p class="text-center fs-7 card-details type">
+                               الحديدة
+                            </p>
+
+                        </div>
+                        <div class="card-body d-flex justify-content-between py-0">
+                            <p href="#" class="card-link card-details">سعر المزايدة/<span class="active price">7000</span><i class="active">$</i>
+                            </p>
+                            <a href="http://localhost:8000/auctiondetails/26" class="card-link active  fs-7">تفاصيل<i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+
+                        </div>
+
+                    </div>
+
+
+                        <!--  the model   -->
+
+                        <div class="modal fade user" id="auction26" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+
+
+
+
+                                    <div class="modal-content m-auto ">
+                                        <div class="modal-header bg-darkgrey">
+
+                                            <button type="button" class="btn-close yellow" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <h6 class="text-center yellow mt-5 mb-5 ">عذرا يرجى تسجيل الدخول اولا حتى تتمكن من
+                                            المزايدة!!</h6>
+                                        <img class="m-auto" src="assets/images/login_error.png" width="300" alt="">
+                                        <a href="http://localhost:8000/login" class="card-link active text-center mt-5 mb-5">
+                                            تسجيل الدخول <i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+                                    </div>
+                            
+                        </div>
+                                                                                                                                                                <div class="card animate text-light m-auto  py-0 mb-4 mt-4 " style="width: 20rem;">
+                        <a href="http://localhost:8000/auctiondetails/29"><img src="images/2022052415571.jpeg" class="card-img-top p-3" height="220" alt="...">
+                            <div style="position:absolute; left:20px;top:55%" class="bg-yellow p-1 px-2 text-light">
+                                <span class="mod">2020</span>
+                                /جيب
+                                
+                            </div>
+                        </a>
+                        <div class="card-body py-0">
+
+                            <h5 class="card-title text-center"><span class="cate"></span>جراند شيروكى
+                                /
+                                                                مستخدم 
+                                                        </h5>
+                            <p class="text-center fs-7 card-details type">
+                               المكلا
+                            </p>
+
+                        </div>
+                        <div class="card-body d-flex justify-content-between py-0">
+                            <p href="#" class="card-link card-details">سعر المزايدة/<span class="active price">50000</span><i class="active">$</i>
+                            </p>
+                            <a href="http://localhost:8000/auctiondetails/29" class="card-link active  fs-7">تفاصيل<i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+
+                        </div>
+
+                    </div>
+
+
+                        <!--  the model   -->
+
+                        <div class="modal fade user" id="auction29" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+
+
+
+
+                                    <div class="modal-content m-auto ">
+                                        <div class="modal-header bg-darkgrey">
+
+                                            <button type="button" class="btn-close yellow" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <h6 class="text-center yellow mt-5 mb-5 ">عذرا يرجى تسجيل الدخول اولا حتى تتمكن من
+                                            المزايدة!!</h6>
+                                        <img class="m-auto" src="assets/images/login_error.png" width="300" alt="">
+                                        <a href="http://localhost:8000/login" class="card-link active text-center mt-5 mb-5">
+                                            تسجيل الدخول <i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+                                    </div>
+                            
+                        </div>
+                                                                                                                                                                                                                                                    <div class="card animate text-light m-auto  py-0 mb-4 mt-4 " style="width: 20rem;">
+                        <a href="http://localhost:8000/auctiondetails/35"><img src="images/2022052417481.jpg" class="card-img-top p-3" height="220" alt="...">
+                            <div style="position:absolute; left:20px;top:55%" class="bg-yellow p-1 px-2 text-light">
+                                <span class="mod">2016</span>
+                                /تويوتا
+                                
+                            </div>
+                        </a>
+                        <div class="card-body py-0">
+
+                            <h5 class="card-title text-center"><span class="cate"></span>فورتشنر
+                                /
+                                                                 جديد
+                                                        </h5>
+                            <p class="text-center fs-7 card-details type">
+                               شبوة
+                            </p>
+
+                        </div>
+                        <div class="card-body d-flex justify-content-between py-0">
+                            <p href="#" class="card-link card-details">سعر المزايدة/<span class="active price">8000</span><i class="active">$</i>
+                            </p>
+                            <a href="http://localhost:8000/auctiondetails/35" class="card-link active  fs-7">تفاصيل<i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+
+                        </div>
+
+                    </div>
+
+
+                        <!--  the model   -->
+
+                        <div class="modal fade user" id="auction35" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+
+
+
+
+                                    <div class="modal-content m-auto ">
+                                        <div class="modal-header bg-darkgrey">
+
+                                            <button type="button" class="btn-close yellow" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <h6 class="text-center yellow mt-5 mb-5 ">عذرا يرجى تسجيل الدخول اولا حتى تتمكن من
+                                            المزايدة!!</h6>
+                                        <img class="m-auto" src="assets/images/login_error.png" width="300" alt="">
+                                        <a href="http://localhost:8000/login" class="card-link active text-center mt-5 mb-5">
+                                            تسجيل الدخول <i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+                                    </div>
+                            
+                        </div>
+                                                                                                                                                                                            <div class="card animate text-light m-auto  py-0 mb-4 mt-4 " style="width: 20rem;">
+                        <a href="http://localhost:8000/auctiondetails/40"><img src="images/2022052419071.jpg" class="card-img-top p-3" height="220" alt="...">
+                            <div style="position:absolute; left:20px;top:55%" class="bg-yellow p-1 px-2 text-light">
+                                <span class="mod">2014</span>
+                                /هوندا
+                                
+                            </div>
+                        </a>
+                        <div class="card-body py-0">
+
+                            <h5 class="card-title text-center"><span class="cate"></span>سنتافي
+                                /
+                                                                 جديد
+                                                        </h5>
+                            <p class="text-center fs-7 card-details type">
+                               ذمار
+                            </p>
+
+                        </div>
+                        <div class="card-body d-flex justify-content-between py-0">
+                            <p href="#" class="card-link card-details">سعر المزايدة/<span class="active price">10000</span><i class="active">$</i>
+                            </p>
+                            <a href="http://localhost:8000/auctiondetails/40" class="card-link active  fs-7">تفاصيل<i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+
+                        </div>
+
+                    </div>
+
+
+                        <!--  the model   -->
+
+                        <div class="modal fade user" id="auction40" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+
+
+
+
+                                    <div class="modal-content m-auto ">
+                                        <div class="modal-header bg-darkgrey">
+
+                                            <button type="button" class="btn-close yellow" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <h6 class="text-center yellow mt-5 mb-5 ">عذرا يرجى تسجيل الدخول اولا حتى تتمكن من
+                                            المزايدة!!</h6>
+                                        <img class="m-auto" src="assets/images/login_error.png" width="300" alt="">
+                                        <a href="http://localhost:8000/login" class="card-link active text-center mt-5 mb-5">
+                                            تسجيل الدخول <i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+                                    </div>
+                            
+                        </div>
+                                                                                                        <div class="card animate text-light m-auto  py-0 mb-4 mt-4 " style="width: 20rem;">
+                        <a href="http://localhost:8000/auctiondetails/41"><img src="images/2022052419181.jpg" class="card-img-top p-3" height="220" alt="...">
+                            <div style="position:absolute; left:20px;top:55%" class="bg-yellow p-1 px-2 text-light">
+                                <span class="mod">2018</span>
+                                /تويوتا
+                                
+                            </div>
+                        </a>
+                        <div class="card-body py-0">
+
+                            <h5 class="card-title text-center"><span class="cate"></span>راف فور
+                                /
+                                                                 جديد
+                                                        </h5>
+                            <p class="text-center fs-7 card-details type">
+                               صنعاء
+                            </p>
+
+                        </div>
+                        <div class="card-body d-flex justify-content-between py-0">
+                            <p href="#" class="card-link card-details">سعر المزايدة/<span class="active price">9400</span><i class="active">$</i>
+                            </p>
+                            <a href="http://localhost:8000/auctiondetails/41" class="card-link active  fs-7">تفاصيل<i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+
+                        </div>
+
+                    </div>
+
+
+                        <!--  the model   -->
+
+                        <div class="modal fade user" id="auction41" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog">
+
+
+
+
+                                    <div class="modal-content m-auto ">
+                                        <div class="modal-header bg-darkgrey">
+
+                                            <button type="button" class="btn-close yellow" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <h6 class="text-center yellow mt-5 mb-5 ">عذرا يرجى تسجيل الدخول اولا حتى تتمكن من
+                                            المزايدة!!</h6>
+                                        <img class="m-auto" src="assets/images/login_error.png" width="300" alt="">
+                                        <a href="http://localhost:8000/login" class="card-link active text-center mt-5 mb-5">
+                                            تسجيل الدخول <i class="fa fa-long-arrow-left p-2 pt-1"> </i></a>
+                                    </div>
+                            
+                        </div>
+                                                        </div>
+
+    </div></div></div></div></div></div></section>
+    
+
+
+    
+    <button class=" smooth-up position-fixed border-0 bottom-3">
+        <span class="fa fa-arrow-up"></span>
+    </button>
+
+    <footer class="position-relative z-10 mt-5">
+        <div class="container-fluid  d-flex mx-auto w-75 justify-content-between flex-wrap">
+            <div class="cornerstyle d-flex align-items-center my-lg-auto ">
+                <a class="navbar-brand border   d-flex align-items-center justify-content-center text-light p-2" href="/home">CAC</a>
+
+            </div>
+            <div class="mt-2 mt-lg-5 col-12 col-md-6 col-lg-2 ">
+                <h6 class="active pt-3 pb-1">عن الشركة</h6>
+                <p class="text-light mt-3 ">
+                    شركة كاك هي الطريقة الأسرع و الأسهل
+                    و الأكثر أمانا لبيع سياراتك بغض النظر عن
+                    الشروط</p>
+
+            </div>
+            <div class="mt-2 mt-lg-5 col-12 col-md-6 col-lg-2">
+                <h6 class="active pt-3 pb-1">تصفح <i class="fa fa-arrow-left"></i></h6>
+                <p class="text-light mt-3">
+                    <a href="http://localhost:8000" class="d-block text-light py-1">الرئيسية</a>
+                    <a href="http://localhost:8000/offers" class="d-block text-light py-1">العروض</a>
+                    <a href="auctions.html" class="d-block text-light py-1">المزادات</a>
+                    <a href="http://localhost:8000/aboutUs" class="d-block text-light py-1">عن الشركة</a>
+                    <a href="http://localhost:8000/contact_us" class="d-block text-light py-1">خدماتنا</a>
+                    <a href="http://localhost:8000/privacyPolicy" class="d-block text-light py-1">سياسة الخصوصية</a>
+                    <a href="http://localhost:8000/faq" class="d-block text-light py-1">كيفية الاستخدام</a>
+                </p>
+
+            </div>
+            <div class="mt-2 mt-lg-5 col-12 col-md-6 col-lg-2" style='width:fit-content'>
+                <h6 class="active pt-3 pb-1">تواصل معنا</h6>
+                                                            </div>
+            <form action=" http://localhost:8000/message" method="POST" enctype="multipart/form-data" class=" mt-2 mt-lg-5  contact-form col-12 col-md-6 col-lg-4  ">
+                <input type="hidden" name="_token" value="z34dMbvUJ6TvSIobyZUtdlkLmsRAP6IaTUNcaNL9">                <h6 class="active w-100 pt-3 pb-1">إرسال رسالة</h6>
+                <div class="d-flex mt-3">
+                    <div class="mx-1">
+
+                        <input type="text" placeholder="الاسم" name="name" value="" class="d-block my-1 py-2 text-light">
+                                                <input type="text" placeholder="الايميل" name="email" value="" class="d-block my-1 py-2 text-light">
+                                                <input type="text" placeholder="رقم الهاتف" name="phone" value="" class="d-block my-1 py-2 text-light">
+                                            </div>
+                    <div class="mx-1">
+                        <textarea id="" name="message" placeholder="نص الرسالة" class=" py-2 text-light d-block px-sm-2 my-1"></textarea>
+                                                <button class=" text-light rounded-0 py-2">
+                            ارسال
+                        </button>
+                    </div>
+                </div>
+               
+            </form>
+
+        </div>
+    </footer>
+    <script src="js/js-2.js"></script>
+    <script src="js/main-2.js"></script>
+    <script src="js/app-2.js"></script>
+    <script src="js/bootstrap.min-2.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="npm/bootstrap%405.1.3/dist/js/bootstrap.bundle.min-2.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+Uri: http://localhost:8000/aboutUs
+File Name: C:\Downloaded Web Sites\localhost\aboutUs.html
+Content Type: text/html
+
+Uri: http://localhost:8000/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\localhost\css\bootstrap.min-4.css
+Content Type: text/css
+
+Uri: http://localhost:8000/css/dashboard.css
+File Name: C:\Downloaded Web Sites\localhost\css\dashboard-4.css
+Content Type: text/css
+
+Uri: http://localhost:8000/css/font-awesome.css
+File Name: C:\Downloaded Web Sites\localhost\css\font-awesome-4.css
+Content Type: text/css
+
+Uri: http://localhost:8000/css/style.css
+File Name: C:\Downloaded Web Sites\localhost\css\style-4.css
+Content Type: text/css
+
+Uri: http://localhost:8000/images/brand1.png
+File Name: C:\Downloaded Web Sites\localhost\images\brand1-1.png
+Content Type: image/png
+
+Uri: http://localhost:8000/images/brand2.png
+File Name: C:\Downloaded Web Sites\localhost\images\brand2-1.png
+Content Type: image/png
+
+Uri: http://localhost:8000/images/brand3.png
+File Name: C:\Downloaded Web Sites\localhost\images\brand3-1.png
+Content Type: image/png
+
+Uri: http://localhost:8000/images/brand4.png
+File Name: C:\Downloaded Web Sites\localhost\images\brand4-1.png
+Content Type: image/png
+
+Uri: http://localhost:8000/js/app.js
+File Name: C:\Downloaded Web Sites\localhost\js\app-4.js
+Content Type: application/javascript
+
+Uri: http://localhost:8000/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\localhost\js\bootstrap.min-4.js
+Content Type: application/javascript
+
+Uri: http://localhost:8000/js/js.js
+File Name: C:\Downloaded Web Sites\localhost\js\js-4.js
+Content Type: application/javascript
+
+Uri: http://localhost:8000/js/main.js
+File Name: C:\Downloaded Web Sites\localhost\js\main-4.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\localhost\npm\bootstrap@5.0.2\dist\css\bootstrap.min-4.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\localhost\npm\bootstrap@5.0.2\dist\js\bootstrap.bundle.min-4.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\localhost\npm\bootstrap@5.1.3\dist\css\bootstrap.min-4.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\localhost\npm\bootstrap@5.1.3\dist\js\bootstrap.bundle.min-4.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap
+File Name: C:\Downloaded Web Sites\localhost\css2-4
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/tajawal/v9/Iura6YBj_oCad4k1rzY.ttf
+File Name: C:\Downloaded Web Sites\localhost\s\tajawal\v9\Iura6YBj_oCad4k1rzY-4.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l5qjLrY.ttf
+File Name: C:\Downloaded Web Sites\localhost\s\tajawal\v9\Iurf6YBj_oCad4k1l5qjLrY-4.ttf
+Content Type: font/ttf
+
+: https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap
+File Name: C:\Downloaded Web Sites\localhost\css2-2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/tajawal/v9/Iura6YBj_oCad4k1rzY.ttf
+File Name: C:\Downloaded Web Sites\localhost\s\tajawal\v9\Iura6YBj_oCad4k1rzY-2.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l5qjLrY.ttf
+File Name: C:\Downloaded Web Sites\localhost\s\tajawal\v9\Iurf6YBj_oCad4k1l5qjLrY-2.ttf
+Content Type: font/ttf
+
+4k1rzY.ttf
+File Name: C:\Downloaded Web Sites\localhost\s\tajawal\v9\Iura6YBj_oCad4k1rzY.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/tajawal/v9/Iurf6YBj_oCad4k1l5qjLrY.ttf
+File Name: C:\Downloaded Web Sites\localhost\s\tajawal\v9\Iurf6YBj_oCad4k1l5qjLrY.ttf
+Content Type: font/ttf
+
